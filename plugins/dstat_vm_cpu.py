@@ -8,7 +8,7 @@ class dstat_plugin(dstat):
     def __init__(self):
         self.name = 'vm cpu'
         self.vars = ('used', 'stolen', 'elapsed')
-        self.nick = ('usd', 'stl')
+        self.nick = ('usd', 'stl', 'ela')
         self.type = 'p'
         self.width = 3
         self.scale = 100
